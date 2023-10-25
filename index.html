@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="top">
-        <h1>Metric &lt;~&gt; Imperial Unit Conversion</h1>
-        <input id="user-input" type="number" placeholder="25">
-    </div>
-    <div class="bottom">
-        <div class="unit-block">
-            <h2 id="comp-length-el">Length (Meter/Feet)</h3>
-            <h4 id="results-length-el"></h4>
+    <div class="wrap">
+        <div class="top">
+            <h1>Metric &lt;~&gt; Imperial Unit Conversion</h1>
+            <input id="user-input" type="text" placeholder="25">
         </div>
-        <div class="unit-block">
-            <h2 id="comp-volume-el">Volume (Gallons/Liters)</h3>
-            <h4 id="results-volume-el"></h4>
-        </div>
-        <div class="unit-block">
-            <h2 id="comp-mass-el">Mass (Kilogram/Pounds)</h3>
-            <h4 id="results-mass-el"></h4>
+        <div class="bottom">
+            <div class="unit-block">
+                <h2 id="comp-length-el">Length (Meter/Feet)</h2>
+                <h4 class ="results" id="results-length-el">0 Meters = 0 Feet | 0 Feet = 0 Meters</h4>
+            </div>
+            <div class="unit-block">
+                <h2 id="comp-volume-el">Volume (Liters/Gallons)</h2>
+                <h4 class ="results" id="results-volume-el">0 Liters = 0 Gallons | 0 Gallons = 0 Liters</h4>
+            </div>
+            <div class="unit-block">
+                <h2 id="comp-mass-el">Mass (Kilogram/Pounds)</h2>
+                <h4 class ="results" id="results-mass-el">0 Kilograms = 0 Pounds | 0 Pounds = 0 Kilograms</h4>
+            </div>
         </div>
     </div>
 
